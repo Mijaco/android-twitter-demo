@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="buttonStyle">@style/BotonUno</item>
+    </style>
+
+    <style name="MegaTexto" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/raleway_black</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="BotonUno" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/raleway_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:background">@color/botonFondo</item>
+        <item name="android:textColor">@color/botonTexto</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="TextoBoton" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/botonFondo</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Venta Uno</string>
+    <string name="mensaje">Entérate de lo que está pasando en el mundo en este momento</string>
+    <string name="tienes_cuenta">Tienes cuenta</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+</resources>
