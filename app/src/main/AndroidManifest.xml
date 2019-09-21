@@ -9,23 +9,25 @@
         android:roundIcon="@mipmap/ic_logo_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".AcercadeActivity"></activity>
+        <activity android:name=".InformacionActivity" />
+        <activity android:name=".TerminosActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
-              <action android:name="android.intent.action.MAIN" />
-              <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".CrearCuentaActivity"
-            android:label="@string/crear_cuenta"></activity>
+            android:label="@string/crear_cuenta" />
         <activity
             android:name=".IniciarSesionActivity"
             android:label="@string/iniciar_sesion" />
-        <activity android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

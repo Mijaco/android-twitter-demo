@@ -10,6 +10,8 @@ class SplashActivity : AppCompatActivity() {
 
     var handler:Handler? = null;
 
+    val TIEMPO_ESPERA:Long=3000
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
@@ -20,6 +22,7 @@ class SplashActivity : AppCompatActivity() {
         handler = Handler();
         handler!!.postDelayed(Runnable { // !! -> es para ejecucion
             startActivity(Intent(this,MainActivity::class.java))
-        },3000)
+            finish()
+        },TIEMPO_ESPERA)
     }
 }
