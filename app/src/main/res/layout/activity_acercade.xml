@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".AcercadeActivity">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,25 +42,23 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentBottom="true"
             android:layout_marginBottom="10dp"
-            android:layout_marginRight="10dp"
-            >
-
+            android:layout_marginRight="10dp">
             <RadioButton
-               android:id="@+id/rbMision"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="@string/mision"/>
-
+                android:id="@+id/rbMision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/mision"/>
             <RadioButton
-               android:id="@+id/rbVision"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:text="@string/vision"/>
-        <RadioButton
-            android:id="@+id/rbHistoria"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/historia"/>
+                android:id="@+id/rbVision"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/vision"/>
+            <RadioButton
+                android:id="@+id/rbHistoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/historia"/>
         </RadioGroup>
 
     </RelativeLayout>

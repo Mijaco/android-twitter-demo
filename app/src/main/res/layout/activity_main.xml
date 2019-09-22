@@ -7,7 +7,6 @@
     android:orientation="vertical"
     android:layout_margin="@dimen/margen_ventana"
     tools:context=".MainActivity">
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,31 +15,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mensaje"
-        style="@style/MegaTexto" />
-
+        style="@style/MegaTexto"/>
     <Button
         android:id="@+id/btnCrearCuenta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/crear_cuenta"/>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/tienes_cuenta"
             android:layout_marginRight="@dimen/espacio_texto"/>
-        <Button
-            android:id="@+id/btnIniciarSesion"
+        <TextView
+            android:id="@+id/tvIniciarSesion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/iniciar_sesion"
             style="@style/TextoBoton"/>
-
     </LinearLayout>
-
 </LinearLayout>
