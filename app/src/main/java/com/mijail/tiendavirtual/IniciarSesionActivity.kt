@@ -6,8 +6,19 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
+import android.view.View
 
-class IniciarSesionActivity : AppCompatActivity() {
+class IniciarSesionActivity : AppCompatActivity(), View.OnClickListener {
+
+    override fun onClick(v: View?){
+        when(v?.id){
+            R.id.btnIniciarSesion -> iniciarSesion()
+        }
+    }
+
+    private fun iniciarSesion() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

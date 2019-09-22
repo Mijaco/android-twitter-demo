@@ -25,7 +25,7 @@
       </configuration>
     </facet>
     <facet type="kotlin-language" name="Kotlin">
-      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="D:\twitter-3\app\src\debug\kotlin;D:\twitter-3\app\src\debug\java;D:\twitter-3\app\src\release\kotlin;D:\twitter-3\app\src\release\java;D:\twitter-3\app\src\debugAndroidTest\kotlin;D:\twitter-3\app\src\debugUnitTest\kotlin;D:\twitter-3\app\src\releaseUnitTest\kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="D:\android-twitter-demo\app\src\debug\kotlin;D:\android-twitter-demo\app\src\debug\java;D:\android-twitter-demo\app\src\release\kotlin;D:\android-twitter-demo\app\src\release\java;D:\android-twitter-demo\app\src\debugAndroidTest\kotlin;D:\android-twitter-demo\app\src\debugUnitTest\kotlin;D:\android-twitter-demo\app\src\releaseUnitTest\kotlin">
         <compilerSettings>
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>

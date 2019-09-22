@@ -34,8 +34,8 @@
             android:layout_height="wrap_content"
             android:text="@string/tienes_cuenta"
             android:layout_marginRight="@dimen/espacio_texto"/>
-        <TextView
-            android:id="@+id/tvIniciarSesion"
+        <Button
+            android:id="@+id/btnIniciarSesion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/iniciar_sesion"

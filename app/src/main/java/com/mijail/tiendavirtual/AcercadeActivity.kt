@@ -15,16 +15,20 @@ class AcercadeActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun mostrarHistoria() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.llContenedor,HistoriaFragment())
+            .commit()
     }
 
     private fun mostrarVision() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.llContenedor,MisionFragment())
+            .commit()}
 
     private fun mostrarMision() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
-    }
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.llContenedor,MisionFragment())
+            .commit()}
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
