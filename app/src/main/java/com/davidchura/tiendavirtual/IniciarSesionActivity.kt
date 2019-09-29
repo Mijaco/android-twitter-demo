@@ -7,6 +7,7 @@ import android.view.Menu
 import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_iniciar_sesion.*
 
 class IniciarSesionActivity : AppCompatActivity(), View.OnClickListener {
@@ -24,6 +25,10 @@ class IniciarSesionActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_iniciar_sesion)
         btnIniciarSesion.setOnClickListener(this)
+
+        var ruta = "https://www.lifeder.com/wp-content/uploads/2017/12/frases-de-Wonder-Woman.jpg"
+
+        Picasso.get().load(ruta).into(ivFoto);
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

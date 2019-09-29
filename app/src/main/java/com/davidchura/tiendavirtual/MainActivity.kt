@@ -46,8 +46,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             Response.Listener<String> { response ->
 
                Log.d("IP",response)
+               tvIP.text = response
             },
-            Response.ErrorListener { })
+            Response.ErrorListener {
+
+                Log.d("IP",it.message.toString())
+            })
 
 // Add the request to the RequestQueue.
         queue.add(stringRequest)
