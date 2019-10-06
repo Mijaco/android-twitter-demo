@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.davidchura.tiendavirtual">
+    package="com.davidchura.mijaco">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -14,14 +14,14 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".EscritorioActivity"
+            android:name="com.davidchura.mijaco.EscritorioActivity"
             android:label="@string/title_activity_escritorio"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".InformacionActivity" />
-        <activity android:name=".AcercadeActivity" />
-        <activity android:name=".TerminosActivity" />
+        <activity android:name="com.davidchura.mijaco.InformacionActivity" />
+        <activity android:name="com.davidchura.mijaco.AcercadeActivity" />
+        <activity android:name="com.davidchura.mijaco.TerminosActivity" />
         <activity
-            android:name=".SplashActivity"
+            android:name="com.davidchura.mijaco.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,12 +30,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CrearCuentaActivity"
+            android:name="com.davidchura.mijaco.CrearCuentaActivity"
             android:label="@string/crear_cuenta" /> <!-- label es el texto de la barra de titulo -->
         <activity
-            android:name=".IniciarSesionActivity"
+            android:name="com.davidchura.mijaco.IniciarSesionActivity"
             android:label="@string/iniciar_sesion" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.davidchura.mijaco.MainActivity" />
     </application>
 
 </manifest>

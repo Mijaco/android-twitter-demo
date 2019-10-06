@@ -46,6 +46,7 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="guardar_inicio_de_sesion">Guardar inicio de sesión</string>
 
 
 </resources>

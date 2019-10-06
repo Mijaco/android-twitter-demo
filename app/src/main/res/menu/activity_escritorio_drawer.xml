@@ -25,11 +25,11 @@
     <item android:title="Sesión">
         <menu>
             <item
-                android:id="@+id/nav_share"
+                android:id="@+id/nav_cerrar_sesion"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Cerrar sesión" />
             <item
-                android:id="@+id/nav_send"
+                android:id="@+id/nav_salir"
                 android:icon="@drawable/ic_menu_send"
                 android:title="Salir" />
         </menu>
