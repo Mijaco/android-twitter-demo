@@ -16,23 +16,38 @@
         <item name="android:textSize">24sp</item>
     </style>
 
+    <style name="TituloLista" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/raleway_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="SubtituloLista" parent="android:Widget.TextView">
+        <item name="android:textStyle">italic</item>
+    </style>
+
     <style name="BotonUno" parent="android:Widget.Button">
         <item name="android:fontFamily">@font/raleway_bold</item>
-        <item name="android:textSize">24sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:background">@color/botonFondo</item>
         <item name="android:textColor">@color/botonTexto</item>
-        <item name="android:padding">10dp</item>
+        <item name="android:padding">10dp</item><!-- distancia del borde al contenido -->
     </style>
 
     <style name="TextoBoton" parent="android:Widget.TextView">
         <item name="android:textColor">@color/botonFondo</item>
-
     </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
 
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/colorAccent</item>
     </style>
 
 </resources>

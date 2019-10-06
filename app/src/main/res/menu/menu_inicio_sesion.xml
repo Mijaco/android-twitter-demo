@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item android:id="@+id/nav_informacion"
         android:title="@string/informacion"
-        android:icon="@drawable/ic_info"/>
-
+        android:icon="@drawable/ic_info"
+        app:showAsAction="ifRoom"/>
     <item android:id="@+id/nav_acerca_de"
-        android:title="@string/acerca_de"/>
-
+        android:title="@string/acerca_de" />
     <item android:id="@+id/nav_terminos_condiciones"
-        android:title="@string/terminos_condiciones"/>
+        android:title="@string/terminos_condiciones" />
 </menu>

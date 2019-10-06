@@ -4,19 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".HistoriaFragment">
+    tools:context="com.davidchura.mijaco.HistoriaFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/MegaTexto"
-        android:text="@string/historia"/>
-
+        android:text="@string/historia" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/historia_contenido"/>
-
+        android:text="@string/historia_contenido" />
 
 </LinearLayout>

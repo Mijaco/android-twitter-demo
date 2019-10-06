@@ -5,30 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".IniciarSesionActivity">
+    android:padding="@dimen/margen_ventana"
+    tools:context="com.davidchura.mijaco.IniciarSesionActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/usuario"/>
-
     <EditText
+        android:id="@+id/etUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/usuario_hint"/>
-
+        android:hint="@string/usuario_hint"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contraseña"/>
-
+        android:text="@string/contrasena"/>
     <EditText
+        android:id="@+id/etClave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contraseña_hint"/>
-
+        android:inputType="numberPassword"
+        android:hint="@string/contrasena_hint"/>
     <Button
+        android:id="@+id/btnIniciarSesion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/iniciar_sesion"/>
+    <CheckBox
+        android:id="@+id/chkSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guardar_inicio_de_sesion"/>
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+
 </LinearLayout>

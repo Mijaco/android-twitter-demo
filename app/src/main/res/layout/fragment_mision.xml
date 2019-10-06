@@ -4,18 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MisionFragment">
+    tools:context="com.davidchura.mijaco.MisionFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/MegaTexto"
-        android:text="@string/mision"/>
-
+        android:text="@string/mision" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/mision_contenido"/>
+        android:text="@string/mision_contenido" />
 
 </LinearLayout>
